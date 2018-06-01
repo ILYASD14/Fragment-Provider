@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/fnInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/first_name"
+            android:inputType="textImeMultiLine|textPersonName" />
+
+        <EditText
+            android:id="@+id/lnInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/last_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/age"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/idInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/id"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/phoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/AddButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:onClick="addAction"
+            android:text="@string/add"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

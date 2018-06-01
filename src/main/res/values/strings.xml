@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ViewPagerExample</string>
+    <string name="new_page">New Page</string>
+    <string name="viewer_page">Viewer Page</string>
+    <string name="next">Next</string>
+    <string name="prev">Prev</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="id">ID</string>
+    <string name="age">Age</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="add">ADD +</string>
+    <string name="firstname">First Name :</string>
+    <string name="agetext">Age :</string>
+    <string name="lastname">Last Name :</string>
+    <string name="idtext">ID :</string>
+    <string name="phonenumber">Phone Number :</string>
+    <string name="add_person">Add Person</string>
+</resources>
